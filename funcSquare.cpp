@@ -18,5 +18,6 @@ cout << v << '\t' << square2(v) << '\n';
 
 int main()
 {
-for (int i = 0; i<100; ++i) print_square(i);
+// for (int i = 0; i<100; ++i) print_square(i);
+for (int i = 0; i<110; ++i) print_square(i);
 }
