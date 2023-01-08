@@ -2,7 +2,7 @@
 //
 // This is example code from Chapter 6.6 "Trying the first version" of
 // "Software - Principles and Practice using C++" by Bjarne Stroustrup
-//
+//  version 1
 
 #include "std_lib_facilities.h"
 
@@ -76,7 +76,7 @@ double primary()     // read and evaluate a Primary
 int main()
 try {
     while (cin)
-        cout << expression() << '\n';
+        cout << "=" << expression() << '\n';  // version 1
     keep_window_open("~0");
 }
 catch (exception& e) {
